@@ -1,50 +1,95 @@
+/* GERAL */
+
 * {
-  font-family: "Montserrat", sans-serif;
   margin: 0;
   box-sizing: border-box;
 }
 
 .container {
-  display: flex;
-  margin: 0 auto;
-  /* border: 1px solid rgb(226, 214, 214); */
-  height: 1200px;
   width: 1000px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* PERFIL */
 
+header {
+  display: flex;
+  align-items: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 40, 0.6741071428571428) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
 
-.img {
-  background-image: url("eu.jpeg");
-  background-size: cover;
-  /* border: 1px solid rgb(107, 97, 97); */
+img {
   height: 300px;
-  width: 320px;
+  width: 315px;
+  background-size: contain;
+}
+
+
+.nome {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  color: rgb(228, 226, 226);
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+/* EXPERIENCIAS */
+
+.habilidades {
+  color: rgb(68, 66, 66);
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .sobre {
   background-color: lightgray;
-  /* border: 1px solid rgb(233, 224, 224); */
-  height: 897px;
-  width: 320px;
-  color: rgb(83, 80, 80);
+  padding: 16px;
+  width: 315px;
+}
+
+.icons {
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+span {
+  margin: 10px;
+}
+
+.experiencias {
+ text-align: center;
+ padding: 16px;
+ font-size: 24px;
+}
+
+.habilidades-primeira-parte, .habilidades-segunda-parte{
+  line-height: 20px;
   padding: 16px;
 }
 
-/*INFORMAÇÕES*/
+/* FOOTER */
 
-.infos {
-  /* border: 1px solid rgb(228, 220, 220); */
-  height: 1200px;
-  width: 676px;
-  color: rgb(83, 80, 80);
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
 }
 
-.nome {
-  /* border: 1px solid rgb(233, 228, 228); */
-  height: 300px;
-  width: 676px;
+.footer {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -52,45 +97,5 @@
     rgba(9, 121, 40, 0.6741071428571428) 100%,
     rgba(0, 212, 255, 1) 100%
   );
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.nome-titulo {
-  padding: 16px;
-  font-size: 60px;
-  text-align: center;
-  color: rgb(200, 198, 198);
-  text-transform: uppercase;
-}
-
-.subtitulo {
-  text-align: center;
-  color: #fff;
-}
-
-.habilidades {
-  text-align: center;
-  padding: 16px;
-}
-
-.habilidades-texto {
-  display: flex;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  margin: -350px auto;
   height: 100px;
-  width: 1000px;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 121, 40, 0.6741071428571428) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
 }
-
