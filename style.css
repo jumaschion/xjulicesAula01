@@ -78,7 +78,9 @@
 }
 
 footer {
-  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  margin: -350px auto;
   height: 100px;
   width: 1000px;
   background: rgb(2, 0, 36);
