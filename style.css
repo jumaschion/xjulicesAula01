@@ -12,6 +12,9 @@
   width: 1000px;
 }
 
+/* PERFIL */
+
+
 .img {
   background-image: url("eu.jpeg");
   background-size: cover;
@@ -26,10 +29,16 @@
   height: 897px;
   width: 320px;
   color: rgb(83, 80, 80);
+  padding: 16px;
 }
 
-.sobre-texto {
-  padding: 16px;
+/*INFORMAÇÕES*/
+
+.infos {
+  /* border: 1px solid rgb(228, 220, 220); */
+  height: 1200px;
+  width: 676px;
+  color: rgb(83, 80, 80);
 }
 
 .nome {
@@ -48,9 +57,9 @@
   justify-content: center;
 }
 
-.titulo-nome {
+.nome-titulo {
   padding: 16px;
-  font-size: 65px;
+  font-size: 60px;
   text-align: center;
   color: rgb(200, 198, 198);
   text-transform: uppercase;
@@ -59,13 +68,6 @@
 .subtitulo {
   text-align: center;
   color: #fff;
-}
-
-.infos {
-  /* border: 1px solid rgb(228, 220, 220); */
-  height: 1200px;
-  width: 676px;
-  color: rgb(83, 80, 80);
 }
 
 .habilidades {
@@ -91,3 +93,4 @@ footer {
     rgba(0, 212, 255, 1) 100%
   );
 }
+
