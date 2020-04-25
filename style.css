@@ -83,12 +83,6 @@ span {
 
 /* FOOTER */
 
-
-.wrapper {
-  min-height: 100%;
-  margin-bottom: -50px;
-}
-
 .footer {
   background: rgb(2, 0, 36);
   background: linear-gradient(
